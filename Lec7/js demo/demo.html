@@ -1,0 +1,64 @@
+<!-- Source: W3Schools -->
+<!DOCTYPE html>
+<html>
+  
+<body>
+
+  <h2>My First JavaScript</h2>
+
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+  <p id="demo">
+  
+  </p>
+
+  <!--------------------------------------------------------->
+  <h2>JavaScript Variables</h2>
+
+  <p>Create a variable, assign a value to it, and display it:</p>
+
+  <p id="demo2"></p>
+
+  <script>
+    var person = "Sick Guy",
+      carName = "Honda",
+      price = 200;
+    document.getElementById("demo2").innerHTML = person;
+
+  </script>
+
+  <!--------------------------------------------------------->
+  <h2>Javascript functions</h2>
+  <p id="demo3"></p>
+
+  <script>
+    var x = myFunction(4, 3);
+    document.getElementById("demo3").innerHTML = x;
+    
+    function myFunction(a, b) {
+      return a * b;
+    }
+
+  </script>
+
+  <!--------------------------------------------------------->
+  <h2>Debugging</h2>
+  <script type="text/javascript">
+    // these are just comments
+    var x = "haha yeet";
+    
+    console.log("Hello World!");
+    console.log(x);
+  </script>
+<!--------------------------------------------------------->
+  <h2>Background Change</h2>
+<button type="button" onclick="myFunction()">Set background image</button>
+<script>   function myFunction() {
+
+    document.body.style.backgroundColor = "#f3f3f3";
+    document.body.style.backgroundImage = "url('http://www.utsc.utoronto.ca/cms/sites/utsc.utoronto.ca.cms/files/styles/person-thumbnail/public/Nick_Cheng.jpg?itok=p_yqXXPh')";
+  }</script>
+</body>
+
+</html>
